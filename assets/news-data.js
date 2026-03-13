@@ -62,3 +62,4 @@ window.SITE_POSTS = [
   tag: "PRESS",
   link: "http://www.groundnews.net/news/articleView.html?idxno=4670"
 }
+];
