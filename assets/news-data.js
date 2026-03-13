@@ -48,18 +48,18 @@ window.SITE_POSTS = [
     id: 6,
     type: "activity",
     title: "포럼 및 교육 프로그램 구성안 검토",
-    summary: "집현전21의 포럼, 세미나, 교육 프로그램 구성을 위한 내부 검토가 진행되었습니다.",
+    summary: "집현전21 포럼, 세미나, 교육 프로그램 구성을 위한 내부 검토가 진행되었습니다.",
     date: "2026-03-08",
     tag: "ACTIVITY",
     link: "./activity.html"
+  },
+  {
+    id: 7,
+    type: "press",
+    title: "집현전21, 창립총회 및 '대한민국의 행복한 미래를 위하여' 심포지엄 개최",
+    summary: "집현전21 창립총회와 심포지엄 관련 언론보도입니다.",
+    date: "2023-11-30",
+    tag: "PRESS",
+    link: "http://www.groundnews.net/news/articleView.html?idxno=4670"
   }
-{
-  id: 7,
-  type: "press",
-  title: "집현전21, 창립총회 및 '대한민국의 행복한 미래를 위하여' 심포지엄 개최",
-  summary: "집현전21 창립총회와 심포지엄 관련 언론보도입니다.",
-  date: "2023-11-30",
-  tag: "PRESS",
-  link: "http://www.groundnews.net/news/articleView.html?idxno=4670"
-}
 ];
