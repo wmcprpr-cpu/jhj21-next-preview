@@ -257,8 +257,8 @@
           </div>
           <div class="news-home-links">
             <a class="btn btn--gold" href="./news.html">NEWS</a>
-            <a class="btn btn--outline-dark" href="./press.html">PRESS</a>
-            <a class="btn btn--outline-dark" href="./activity.html">ACTIVITY</a>
+            <a class="btn btn--outline-navy" href="./press.html">PRESS</a>
+            <a class="btn btn--outline-navy" href="./activity.html">ACTIVITY</a>
           </div>
         </div>
 
@@ -268,26 +268,6 @@
 
     <section class="section section--cta">
       <div class="container cta-box">
-       
-      <section class="section news-home-section">
-  <div class="container">
-    <div class="section__head">
-      <div>
-        <h2 class="section__title">최근 소식</h2>
-        <p class="section__desc">
-          집현전21의 최근 뉴스, 언론보도, 활동 소식을 한눈에 확인하실 수 있습니다.
-        </p>
-      </div>
-      <div class="news-home-links">
-        <a class="btn btn--gold" href="./news.html">NEWS</a>
-        <a class="btn btn--outline-navy" href="./press.html">PRESS</a>
-        <a class="btn btn--outline-navy" href="./activity.html">ACTIVITY</a>
-      </div>
-    </div>
-
-    <div class="news-home-grid" id="recentNewsList"></div>
-  </div>
-</section>   
         <div>
           <h2 class="section__title">공지 및 문의</h2>
           <p class="section__desc">
@@ -348,33 +328,7 @@
     window.addEventListener("beforeinstallprompt", (e) => {
       e.preventDefault();
       deferredPrompt = e;
-
-      const installBtn = document.getElementById("installPwaBtn");
-      if (installBtn) {
-        installBtn.style.display = "inline-flex";
-      }
     });
-
-    window.addEventListener("DOMContentLoaded", () => {
-      const installBtn = document.getElementById("installPwaBtn");
-      if (installBtn) {
-        installBtn.addEventListener("click", async () => {
-          if (!deferredPrompt) return;
-          deferredPrompt.prompt();
-          await deferredPrompt.userChoice;
-          deferredPrompt = null;
-          installBtn.style.display = "none";
-        });
-      }
-    });
-
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", () => {
-        navigator.serviceWorker.register("./service-worker.js").catch((err) => {
-          console.error("Service Worker registration failed:", err);
-        });
-      });
-    }
 
     function openInstallGuide() {
       const guide = document.getElementById("installGuide");
