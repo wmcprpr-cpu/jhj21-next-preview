@@ -53,7 +53,6 @@ window.SITE_POSTS = [
     tag: "ACTIVITY",
     link: "./activity.html"
   }
-];
 {
   id: 7,
   type: "press",
