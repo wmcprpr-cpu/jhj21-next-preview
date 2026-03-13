@@ -54,3 +54,12 @@ window.SITE_POSTS = [
     link: "./activity.html"
   }
 ];
+{
+  id: 7,
+  type: "press",
+  title: "집현전21, 창립총회 및 '대한민국의 행복한 미래를 위하여' 심포지엄 개최",
+  summary: "집현전21 창립총회와 심포지엄 관련 언론보도입니다.",
+  date: "2023-11-30",
+  tag: "PRESS",
+  link: "http://www.groundnews.net/news/articleView.html?idxno=4670"
+}
